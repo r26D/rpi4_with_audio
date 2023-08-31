@@ -1,8 +1,8 @@
-defmodule NervesSystemRpi4.MixProject do
+defmodule Rpi4WithAduio.MixProject do
   use Mix.Project
 
-  @github_organization "nerves-project"
-  @app :nerves_system_rpi4
+  @github_organization "r26D"
+  @app :rpi4_with_audio
   @source_url "https://github.com/#{@github_organization}/#{@app}"
   @version Path.join(__DIR__, "VERSION")
            |> File.read!()
